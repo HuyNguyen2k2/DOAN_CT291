@@ -14,7 +14,7 @@ namespace QL_BANSACH
 
         public void ketnoi(SqlConnection conn)
         {
-            string chuoiketnoi = " SERVER = DESKTOP-I8A0V3S; database = QL_NHANSU; integrated Security = True ";
+            string chuoiketnoi = " SERVER = DESKTOP-I8A0V3S; database = QL_BanSach; integrated Security = True ";
             conn.ConnectionString = chuoiketnoi;
             conn.Open();
 
