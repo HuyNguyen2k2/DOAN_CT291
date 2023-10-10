@@ -1,0 +1,10 @@
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe.config
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.pdb
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.AssemblyReference.cache
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.SuggestedBindingRedirects.cache
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.Properties.Resources.resources
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.GenerateResource.cache
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
+D:\TAILIEUHOCTAP\Tài Liệu CT291\project\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb
