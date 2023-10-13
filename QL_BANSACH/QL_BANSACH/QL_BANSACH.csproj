@@ -58,7 +58,25 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DatSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatSach.Designer.cs">
+      <DependentUpon>DatSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Function.cs" />
+    <Compile Include="ThemNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemNV.Designer.cs">
+      <DependentUpon>ThemNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +90,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatSach.resx">
+      <DependentUpon>DatSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemNV.resx">
+      <DependentUpon>ThemNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
