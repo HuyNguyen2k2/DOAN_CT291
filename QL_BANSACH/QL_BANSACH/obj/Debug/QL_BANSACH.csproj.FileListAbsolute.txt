@@ -23,3 +23,18 @@ D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BA
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe.config
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.pdb
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.AssemblyReference.cache
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.SuggestedBindingRedirects.cache
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangKy.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DatSach.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.ThemNV.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.ThemSach.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.TrangChu.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.Properties.Resources.resources
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.GenerateResource.cache
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
+D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb

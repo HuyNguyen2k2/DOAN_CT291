@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QL_BANSACH
 {
-    public partial class ThemSach : Form
+    public partial class QuanLySach : Form
     {
-        public ThemSach()
+        public QuanLySach()
         {
             InitializeComponent();
         }

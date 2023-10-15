@@ -52,12 +52,6 @@
     <Compile Include="DangKy.Designer.cs">
       <DependentUpon>DangKy.cs</DependentUpon>
     </Compile>
-    <Compile Include="DangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DangNhap.Designer.cs">
-      <DependentUpon>DangNhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="DatSach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,17 +59,17 @@
       <DependentUpon>DatSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
-    <Compile Include="ThemNV.cs">
+    <Compile Include="QuanLyNV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemNV.Designer.cs">
-      <DependentUpon>ThemNV.cs</DependentUpon>
+    <Compile Include="QuanLyNV.Designer.cs">
+      <DependentUpon>QuanLyNV.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemSach.cs">
+    <Compile Include="QuanLySach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemSach.Designer.cs">
-      <DependentUpon>ThemSach.cs</DependentUpon>
+    <Compile Include="QuanLySach.Designer.cs">
+      <DependentUpon>QuanLySach.cs</DependentUpon>
     </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
@@ -88,17 +82,14 @@
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DangNhap.resx">
-      <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DatSach.resx">
       <DependentUpon>DatSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemNV.resx">
-      <DependentUpon>ThemNV.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLyNV.resx">
+      <DependentUpon>QuanLyNV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemSach.resx">
-      <DependentUpon>ThemSach.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLySach.resx">
+      <DependentUpon>QuanLySach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QL_BANSACH
 {
-    public partial class ThemNV : Form
+    public partial class QuanLyNV : Form
     {
-        public ThemNV()
+        public QuanLyNV()
         {
             InitializeComponent();
         }
