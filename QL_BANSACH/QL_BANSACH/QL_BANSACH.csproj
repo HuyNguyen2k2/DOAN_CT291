@@ -60,6 +60,18 @@
       <DependentUpon>DatSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
+    <Compile Include="MenuKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuKH.Designer.cs">
+      <DependentUpon>MenuKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuQL.Designer.cs">
+      <DependentUpon>MenuQL.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyNV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,11 +84,11 @@
     <Compile Include="QuanLySach.Designer.cs">
       <DependentUpon>QuanLySach.cs</DependentUpon>
     </Compile>
-    <Compile Include="TrangChu.cs">
+    <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TrangChu.Designer.cs">
-      <DependentUpon>TrangChu.cs</DependentUpon>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,14 +98,20 @@
     <EmbeddedResource Include="DatSach.resx">
       <DependentUpon>DatSach.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuKH.resx">
+      <DependentUpon>MenuKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuQL.resx">
+      <DependentUpon>MenuQL.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyNV.resx">
       <DependentUpon>QuanLyNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLySach.resx">
       <DependentUpon>QuanLySach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TrangChu.resx">
-      <DependentUpon>TrangChu.cs</DependentUpon>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

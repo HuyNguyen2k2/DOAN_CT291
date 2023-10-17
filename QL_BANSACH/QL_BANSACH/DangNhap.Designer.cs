@@ -1,6 +1,6 @@
 ﻿namespace QL_BANSACH
 {
-    partial class TrangChu
+    partial class DangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangNhap));
             this.label1 = new System.Windows.Forms.Label();
             this.llableSignIn = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();

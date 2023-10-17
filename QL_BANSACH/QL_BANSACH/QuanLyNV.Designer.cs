@@ -60,7 +60,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label1.Location = new System.Drawing.Point(29, 26);
+            this.label1.Location = new System.Drawing.Point(44, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 18);
@@ -70,7 +70,7 @@
             // 
             // txtbMaNV
             // 
-            this.txtbMaNV.Location = new System.Drawing.Point(133, 27);
+            this.txtbMaNV.Location = new System.Drawing.Point(148, 28);
             this.txtbMaNV.Margin = new System.Windows.Forms.Padding(2);
             this.txtbMaNV.Name = "txtbMaNV";
             this.txtbMaNV.Size = new System.Drawing.Size(227, 20);
@@ -82,7 +82,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(29, 60);
+            this.label2.Location = new System.Drawing.Point(44, 61);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 18);
@@ -91,7 +91,7 @@
             // 
             // txtbTenNV
             // 
-            this.txtbTenNV.Location = new System.Drawing.Point(132, 61);
+            this.txtbTenNV.Location = new System.Drawing.Point(147, 62);
             this.txtbTenNV.Margin = new System.Windows.Forms.Padding(2);
             this.txtbTenNV.Name = "txtbTenNV";
             this.txtbTenNV.Size = new System.Drawing.Size(227, 20);
@@ -104,7 +104,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label3.Location = new System.Drawing.Point(29, 97);
+            this.label3.Location = new System.Drawing.Point(44, 99);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 18);
@@ -113,10 +113,11 @@
             // 
             // txtbDC
             // 
-            this.txtbDC.Location = new System.Drawing.Point(133, 98);
+            this.txtbDC.Location = new System.Drawing.Point(148, 99);
             this.txtbDC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtbDC.Multiline = true;
             this.txtbDC.Name = "txtbDC";
-            this.txtbDC.Size = new System.Drawing.Size(227, 20);
+            this.txtbDC.Size = new System.Drawing.Size(227, 32);
             this.txtbDC.TabIndex = 1;
             // 
             // label4
@@ -125,7 +126,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label4.Location = new System.Drawing.Point(29, 133);
+            this.label4.Location = new System.Drawing.Point(44, 141);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 18);
@@ -134,7 +135,7 @@
             // 
             // txtbSDT
             // 
-            this.txtbSDT.Location = new System.Drawing.Point(132, 134);
+            this.txtbSDT.Location = new System.Drawing.Point(147, 142);
             this.txtbSDT.Margin = new System.Windows.Forms.Padding(2);
             this.txtbSDT.Name = "txtbSDT";
             this.txtbSDT.Size = new System.Drawing.Size(227, 20);
@@ -158,7 +159,7 @@
             this.btnAddNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnAddNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnAddNV.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnAddNV.Location = new System.Drawing.Point(32, 179);
+            this.btnAddNV.Location = new System.Drawing.Point(34, 179);
             this.btnAddNV.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNV.Name = "btnAddNV";
             this.btnAddNV.Size = new System.Drawing.Size(104, 27);
@@ -171,7 +172,7 @@
             this.btnEditNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnEditNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnEditNV.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnEditNV.Location = new System.Drawing.Point(159, 179);
+            this.btnEditNV.Location = new System.Drawing.Point(161, 179);
             this.btnEditNV.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditNV.Name = "btnEditNV";
             this.btnEditNV.Size = new System.Drawing.Size(104, 27);
@@ -184,7 +185,7 @@
             this.btnDeleteNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnDeleteNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnDeleteNV.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnDeleteNV.Location = new System.Drawing.Point(293, 179);
+            this.btnDeleteNV.Location = new System.Drawing.Point(295, 179);
             this.btnDeleteNV.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeleteNV.Name = "btnDeleteNV";
             this.btnDeleteNV.Size = new System.Drawing.Size(104, 27);
@@ -219,7 +220,7 @@
             // 
             // picbNV
             // 
-            this.picbNV.Location = new System.Drawing.Point(643, 27);
+            this.picbNV.Location = new System.Drawing.Point(608, 28);
             this.picbNV.Name = "picbNV";
             this.picbNV.Size = new System.Drawing.Size(161, 167);
             this.picbNV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -228,7 +229,7 @@
             // 
             // btnUpImg
             // 
-            this.btnUpImg.Location = new System.Drawing.Point(539, 27);
+            this.btnUpImg.Location = new System.Drawing.Point(519, 27);
             this.btnUpImg.Name = "btnUpImg";
             this.btnUpImg.Size = new System.Drawing.Size(83, 30);
             this.btnUpImg.TabIndex = 7;
