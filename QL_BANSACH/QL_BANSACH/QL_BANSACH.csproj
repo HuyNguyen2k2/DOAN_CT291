@@ -60,6 +60,12 @@
       <DependentUpon>DatSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
+    <Compile Include="HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyNV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DatSach.resx">
       <DependentUpon>DatSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyNV.resx">
       <DependentUpon>QuanLyNV.cs</DependentUpon>

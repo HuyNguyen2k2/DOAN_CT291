@@ -36,5 +36,10 @@ namespace QL_BANSACH
         {
 
         }
+
+        private void txtbMaNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

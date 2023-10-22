@@ -26,5 +26,10 @@ namespace QL_BANSACH
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
