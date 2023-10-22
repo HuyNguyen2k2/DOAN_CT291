@@ -83,7 +83,7 @@ namespace QL_BANSACH
                 func.CapNhat(sql_InsertTable_KH, conn);
                 func.CapNhat(sql_InsertTable_TK, conn);
                 MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                TrangChu back = new TrangChu();
+                DangNhap back = new DangNhap();
                 back.Show();
             }
 

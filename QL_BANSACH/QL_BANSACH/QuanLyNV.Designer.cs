@@ -60,7 +60,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(39, 32);
+=======
+            this.label1.Location = new System.Drawing.Point(44, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 24);
             this.label1.TabIndex = 0;
@@ -69,8 +74,13 @@
             // 
             // txtbMaNV
             // 
+<<<<<<< HEAD
             this.txtbMaNV.Location = new System.Drawing.Point(177, 33);
             this.txtbMaNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.txtbMaNV.Location = new System.Drawing.Point(148, 28);
+            this.txtbMaNV.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.txtbMaNV.Name = "txtbMaNV";
             this.txtbMaNV.Size = new System.Drawing.Size(301, 23);
             this.txtbMaNV.TabIndex = 1;
@@ -82,7 +92,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(39, 74);
+=======
+            this.label2.Location = new System.Drawing.Point(44, 61);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 24);
             this.label2.TabIndex = 0;
@@ -90,8 +105,13 @@
             // 
             // txtbTenNV
             // 
+<<<<<<< HEAD
             this.txtbTenNV.Location = new System.Drawing.Point(176, 75);
             this.txtbTenNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.txtbTenNV.Location = new System.Drawing.Point(147, 62);
+            this.txtbTenNV.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.txtbTenNV.Name = "txtbTenNV";
             this.txtbTenNV.Size = new System.Drawing.Size(301, 23);
             this.txtbTenNV.TabIndex = 1;
@@ -103,7 +123,12 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(39, 119);
+=======
+            this.label3.Location = new System.Drawing.Point(44, 99);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 24);
             this.label3.TabIndex = 0;
@@ -111,10 +136,18 @@
             // 
             // txtbDC
             // 
+<<<<<<< HEAD
             this.txtbDC.Location = new System.Drawing.Point(177, 121);
             this.txtbDC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtbDC.Name = "txtbDC";
             this.txtbDC.Size = new System.Drawing.Size(301, 23);
+=======
+            this.txtbDC.Location = new System.Drawing.Point(148, 99);
+            this.txtbDC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtbDC.Multiline = true;
+            this.txtbDC.Name = "txtbDC";
+            this.txtbDC.Size = new System.Drawing.Size(227, 32);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.txtbDC.TabIndex = 1;
             // 
             // label4
@@ -123,7 +156,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(39, 164);
+=======
+            this.label4.Location = new System.Drawing.Point(44, 141);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 24);
             this.label4.TabIndex = 0;
@@ -131,8 +169,13 @@
             // 
             // txtbSDT
             // 
+<<<<<<< HEAD
             this.txtbSDT.Location = new System.Drawing.Point(176, 165);
             this.txtbSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.txtbSDT.Location = new System.Drawing.Point(147, 142);
+            this.txtbSDT.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.txtbSDT.Name = "txtbSDT";
             this.txtbSDT.Size = new System.Drawing.Size(301, 23);
             this.txtbSDT.TabIndex = 1;
@@ -154,8 +197,13 @@
             this.btnAddNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnAddNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnAddNV.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.btnAddNV.Location = new System.Drawing.Point(43, 220);
             this.btnAddNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.btnAddNV.Location = new System.Drawing.Point(34, 179);
+            this.btnAddNV.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.btnAddNV.Name = "btnAddNV";
             this.btnAddNV.Size = new System.Drawing.Size(139, 33);
             this.btnAddNV.TabIndex = 3;
@@ -167,8 +215,13 @@
             this.btnEditNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnEditNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnEditNV.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.btnEditNV.Location = new System.Drawing.Point(212, 220);
             this.btnEditNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.btnEditNV.Location = new System.Drawing.Point(161, 179);
+            this.btnEditNV.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.btnEditNV.Name = "btnEditNV";
             this.btnEditNV.Size = new System.Drawing.Size(139, 33);
             this.btnEditNV.TabIndex = 4;
@@ -180,8 +233,13 @@
             this.btnDeleteNV.BackColor = System.Drawing.Color.Gainsboro;
             this.btnDeleteNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnDeleteNV.ForeColor = System.Drawing.Color.DarkBlue;
+<<<<<<< HEAD
             this.btnDeleteNV.Location = new System.Drawing.Point(391, 220);
             this.btnDeleteNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            this.btnDeleteNV.Location = new System.Drawing.Point(295, 179);
+            this.btnDeleteNV.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.btnDeleteNV.Name = "btnDeleteNV";
             this.btnDeleteNV.Size = new System.Drawing.Size(139, 33);
             this.btnDeleteNV.TabIndex = 5;
@@ -217,8 +275,12 @@
             // 
             // picbNV
             // 
+<<<<<<< HEAD
             this.picbNV.Location = new System.Drawing.Point(857, 33);
             this.picbNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.picbNV.Location = new System.Drawing.Point(608, 28);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.picbNV.Name = "picbNV";
             this.picbNV.Size = new System.Drawing.Size(215, 206);
             this.picbNV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -227,8 +289,12 @@
             // 
             // btnUpImg
             // 
+<<<<<<< HEAD
             this.btnUpImg.Location = new System.Drawing.Point(719, 33);
             this.btnUpImg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnUpImg.Location = new System.Drawing.Point(519, 27);
+>>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
             this.btnUpImg.Name = "btnUpImg";
             this.btnUpImg.Size = new System.Drawing.Size(111, 37);
             this.btnUpImg.TabIndex = 7;

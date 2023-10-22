@@ -12,12 +12,12 @@ using System.Runtime.InteropServices;
 
 namespace QL_BANSACH
 {
-    public partial class TrangChu : Form
+    public partial class DangNhap : Form
     {
         public SqlConnection conn = new SqlConnection();
         Function fun = new Function();
 
-        public TrangChu()
+        public DangNhap()
         {
             InitializeComponent();
         }
@@ -37,16 +37,20 @@ namespace QL_BANSACH
             SqlCommand comd = new SqlCommand(sql_getAcc, conn);
             SqlDataReader reader = comd.ExecuteReader();
 
-            if (reader.Read())
+            if (txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
             {
-                DatSach datSach = new DatSach();
-                datSach.Show();
+                MenuQL menuQL = new MenuQL();
+                menuQL.Show();
+            }
+            else if (reader.Read())
+            {
+                MenuKH menu = new MenuKH();
+                menu.Show();
             }
             else
             {
                 MessageBox.Show("Đăng nhập thất bại!");
             }
-
             reader.Close();
 
         }
