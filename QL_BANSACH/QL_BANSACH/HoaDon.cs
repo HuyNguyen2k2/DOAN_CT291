@@ -16,7 +16,6 @@ namespace QL_BANSACH
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
         private void HoaDon_Load(object sender, EventArgs e)
         {
@@ -67,7 +66,5 @@ namespace QL_BANSACH
         {
 
         }
-=======
->>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
     }
 }

@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuKH));
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnEditPf = new System.Windows.Forms.Button();
             this.btnOrder = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.showName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -102,16 +101,16 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // label2
+            // showName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(533, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Chào, .......";
+            this.showName.AutoSize = true;
+            this.showName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showName.ForeColor = System.Drawing.Color.DarkBlue;
+            this.showName.Location = new System.Drawing.Point(533, 12);
+            this.showName.Name = "showName";
+            this.showName.Size = new System.Drawing.Size(59, 13);
+            this.showName.TabIndex = 9;
+            this.showName.Text = "Chào, .......";
             // 
             // pictureBox1
             // 
@@ -126,11 +125,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(636, 376);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.showName);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.btnEditPf);
@@ -138,6 +136,8 @@
             this.Controls.Add(this.label1);
             this.Name = "MenuKH";
             this.Text = "MenuKH";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuKH_FormClosed);
+            this.Load += new System.EventHandler(this.MenuKH_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -151,7 +151,7 @@
         private System.Windows.Forms.Button btnEditPf;
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label showName;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

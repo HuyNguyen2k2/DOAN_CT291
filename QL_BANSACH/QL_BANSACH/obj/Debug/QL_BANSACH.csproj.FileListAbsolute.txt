@@ -17,7 +17,6 @@ D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BA
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.AssemblyReference.cache
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangKy.resources
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangNhap.resources
-D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.TrangChu.resources
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.Properties.Resources.resources
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.GenerateResource.cache
 D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
@@ -37,23 +36,31 @@ D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLyNV.resources
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLySach.resources
-<<<<<<< HEAD
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe.config
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.pdb
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.AssemblyReference.cache
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangKy.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DatSach.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLyNV.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLySach.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.TrangChu.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.Properties.Resources.resources
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.GenerateResource.cache
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
-D:\LẬP TRÌNH ỨNG DỤNG\QlyBanSach\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb
-=======
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuKH.resources
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangNhap.resources
 D:\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuQL.resources
->>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DatSach.resources
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.HoaDon.resources
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuKH.resources
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuQL.resources
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLyNV.resources
+D:\Documents\CT291-Lập trình ứng dụng\Project\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLySach.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe.config
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.exe
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\bin\Debug\QL_BANSACH.pdb
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangKy.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DatSach.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.HoaDon.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuKH.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.MenuQL.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLyNV.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.QuanLySach.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.DangNhap.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.Properties.Resources.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.TTKH.resources
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.GenerateResource.cache
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.exe
+C:\Users\PC\Downloads\DOAN_CT291\QL_BANSACH\QL_BANSACH\obj\Debug\QL_BANSACH.pdb

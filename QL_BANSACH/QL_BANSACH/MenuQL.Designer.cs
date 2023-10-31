@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuQL));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
@@ -41,7 +40,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(542, 34);
+            this.pictureBox1.Location = new System.Drawing.Point(532, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(67, 67);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -53,7 +52,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(539, 15);
+            this.label2.Location = new System.Drawing.Point(529, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 16;
@@ -64,7 +63,7 @@
             this.btnClose.BackColor = System.Drawing.Color.LightGray;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnClose.Location = new System.Drawing.Point(205, 276);
+            this.btnClose.Location = new System.Drawing.Point(190, 274);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(227, 40);
             this.btnClose.TabIndex = 13;
@@ -77,11 +76,11 @@
             this.btnEditNV.BackColor = System.Drawing.Color.LightGray;
             this.btnEditNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditNV.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnEditNV.Location = new System.Drawing.Point(205, 216);
+            this.btnEditNV.Location = new System.Drawing.Point(190, 214);
             this.btnEditNV.Name = "btnEditNV";
             this.btnEditNV.Size = new System.Drawing.Size(227, 40);
             this.btnEditNV.TabIndex = 14;
-            this.btnEditNV.Text = "Chỉnh sửa thông tin nhân viên";
+            this.btnEditNV.Text = "Quản lý nhân viên";
             this.btnEditNV.UseVisualStyleBackColor = false;
             this.btnEditNV.Click += new System.EventHandler(this.btnEditNV_Click);
             // 
@@ -90,11 +89,11 @@
             this.btnEditBooks.BackColor = System.Drawing.Color.LightGray;
             this.btnEditBooks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditBooks.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnEditBooks.Location = new System.Drawing.Point(205, 158);
+            this.btnEditBooks.Location = new System.Drawing.Point(190, 156);
             this.btnEditBooks.Name = "btnEditBooks";
             this.btnEditBooks.Size = new System.Drawing.Size(227, 40);
             this.btnEditBooks.TabIndex = 15;
-            this.btnEditBooks.Text = "Chỉnh sửa thông tin sách";
+            this.btnEditBooks.Text = "Quản lý sách";
             this.btnEditBooks.UseVisualStyleBackColor = false;
             this.btnEditBooks.Click += new System.EventHandler(this.btnEditBooks_Click);
             // 
@@ -116,7 +115,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label1.Location = new System.Drawing.Point(216, 34);
+            this.label1.Location = new System.Drawing.Point(201, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(205, 39);
             this.label1.TabIndex = 11;
@@ -126,9 +125,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(678, 413);
+            this.ClientSize = new System.Drawing.Size(637, 391);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnClose);
@@ -138,6 +136,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MenuQL";
             this.Text = "MenuQL";
+            this.Load += new System.EventHandler(this.MenuQL_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

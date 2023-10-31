@@ -60,13 +60,12 @@
       <DependentUpon>DatSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
-<<<<<<< HEAD
     <Compile Include="HoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HoaDon.Designer.cs">
       <DependentUpon>HoaDon.cs</DependentUpon>
-=======
+    </Compile>
     <Compile Include="MenuKH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +77,6 @@
     </Compile>
     <Compile Include="MenuQL.Designer.cs">
       <DependentUpon>MenuQL.cs</DependentUpon>
->>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
     </Compile>
     <Compile Include="QuanLyNV.cs">
       <SubType>Form</SubType>
@@ -100,22 +98,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TTKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTKH.Designer.cs">
+      <DependentUpon>TTKH.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DatSach.resx">
       <DependentUpon>DatSach.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="HoaDon.resx">
       <DependentUpon>HoaDon.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuKH.resx">
       <DependentUpon>MenuKH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuQL.resx">
       <DependentUpon>MenuQL.cs</DependentUpon>
->>>>>>> acd462ed6da12618cc0a63d272f91c36d5539606
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyNV.resx">
       <DependentUpon>QuanLyNV.cs</DependentUpon>
@@ -135,6 +137,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TTKH.resx">
+      <DependentUpon>TTKH.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

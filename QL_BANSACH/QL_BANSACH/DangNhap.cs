@@ -25,6 +25,8 @@ namespace QL_BANSACH
         private void llableSignIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             DangKy dk = new DangKy();
+            dk.FormClosed += DangNhap_FormClosed;
+            this.Hide();
             dk.Show();
         }
 
@@ -37,15 +39,21 @@ namespace QL_BANSACH
             SqlCommand comd = new SqlCommand(sql_getAcc, conn);
             SqlDataReader reader = comd.ExecuteReader();
 
-            if (txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
+            if((txtbUserName.Text == "" || txtbPassword.Text == "") || (txtbUserName.Text == "" && txtbPassword.Text == ""))
             {
-                MenuQL menuQL = new MenuQL();
-                menuQL.Show();
-            }
-            else if (reader.Read())
+                MessageBox.Show("Thông tin đăng nhập chưa đầy đủ");
+            }else if(txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
             {
-                MenuKH menu = new MenuKH();
-                menu.Show();
+                MenuQL ql = new MenuQL();
+                ql.FormClosed += DangNhap_FormClosed;
+                this.Hide();
+                ql.Show();
+            }else if (reader.Read())
+            {
+                MenuKH kh = new MenuKH();
+                kh.FormClosed += DangNhap_FormClosed;
+                this.Hide();
+                kh.Show();
             }
             else
             {
@@ -57,7 +65,7 @@ namespace QL_BANSACH
 
         private void btnCls_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void TrangChu_Load(object sender, EventArgs e)
@@ -71,6 +79,11 @@ namespace QL_BANSACH
             { 
                 btnLogin.PerformClick();
             }
+        }
+
+        private void DangNhap_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
     }
 }

@@ -33,5 +33,10 @@ namespace QL_BANSACH
         {
             Close();
         }
+
+        private void MenuQL_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
