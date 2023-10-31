@@ -16,17 +16,15 @@ namespace QL_BANSACH
     {
         public SqlConnection conn = new SqlConnection();
         Function fun = new Function();
-
         public DangNhap()
         {
             InitializeComponent();
+            
         }
 
         private void llableSignIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             DangKy dk = new DangKy();
-            dk.FormClosed += DangNhap_FormClosed;
-            this.Hide();
             dk.Show();
         }
 
@@ -34,26 +32,21 @@ namespace QL_BANSACH
         {
             string username = txtbUserName.Text;
             string password = txtbPassword.Text;
-            string sql_getAcc = "SELECT username, password FROM TAI_KHOAN WHERE username = '" + username + "' AND password = '" + password + "' ";
+            string sql_getAcc = "SELECT username, password, makh FROM TAI_KHOAN WHERE username = '" + username + "' AND password = '" + password + "' ";
 
             SqlCommand comd = new SqlCommand(sql_getAcc, conn);
             SqlDataReader reader = comd.ExecuteReader();
 
-            if((txtbUserName.Text == "" || txtbPassword.Text == "") || (txtbUserName.Text == "" && txtbPassword.Text == ""))
+            if (txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
             {
-                MessageBox.Show("Thông tin đăng nhập chưa đầy đủ");
-            }else if(txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
+                MenuQL menuQL = new MenuQL();
+                menuQL.Show();
+                
+            }
+            else if (reader.Read())
             {
-                MenuQL ql = new MenuQL();
-                ql.FormClosed += DangNhap_FormClosed;
-                this.Hide();
-                ql.Show();
-            }else if (reader.Read())
-            {
-                MenuKH kh = new MenuKH();
-                kh.FormClosed += DangNhap_FormClosed;
-                this.Hide();
-                kh.Show();
+                MenuKH menu = new MenuKH(reader["makh"].ToString(), username);
+                menu.Show();
             }
             else
             {
@@ -65,7 +58,7 @@ namespace QL_BANSACH
 
         private void btnCls_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void TrangChu_Load(object sender, EventArgs e)
@@ -81,9 +74,15 @@ namespace QL_BANSACH
             }
         }
 
-        private void DangNhap_FormClosed(object sender, FormClosedEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            this.Show();
+
+        }
+
+        private void linkfgPwd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgetPwd forgetPwd = new ForgetPwd();
+            forgetPwd.Show();
         }
     }
 }

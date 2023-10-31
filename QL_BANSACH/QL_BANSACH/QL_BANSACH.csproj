@@ -59,12 +59,18 @@
     <Compile Include="DatSach.Designer.cs">
       <DependentUpon>DatSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Function.cs" />
-    <Compile Include="HoaDon.cs">
+    <Compile Include="ForgetPwd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HoaDon.Designer.cs">
-      <DependentUpon>HoaDon.cs</DependentUpon>
+    <Compile Include="ForgetPwd.Designer.cs">
+      <DependentUpon>ForgetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Function.cs" />
+    <Compile Include="DonDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonDat.Designer.cs">
+      <DependentUpon>DonDat.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuKH.cs">
       <SubType>Form</SubType>
@@ -98,11 +104,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TTKH.cs">
+    <Compile Include="ThongTinDonDat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TTKH.Designer.cs">
-      <DependentUpon>TTKH.cs</DependentUpon>
+    <Compile Include="ThongTinDonDat.Designer.cs">
+      <DependentUpon>ThongTinDonDat.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
@@ -110,8 +116,11 @@
     <EmbeddedResource Include="DatSach.resx">
       <DependentUpon>DatSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HoaDon.resx">
-      <DependentUpon>HoaDon.cs</DependentUpon>
+    <EmbeddedResource Include="DonDat.resx">
+      <DependentUpon>DonDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPwd.resx">
+      <DependentUpon>ForgetPwd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuKH.resx">
       <DependentUpon>MenuKH.cs</DependentUpon>
@@ -137,8 +146,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TTKH.resx">
-      <DependentUpon>TTKH.cs</DependentUpon>
+    <EmbeddedResource Include="ThongTinDonDat.resx">
+      <DependentUpon>ThongTinDonDat.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

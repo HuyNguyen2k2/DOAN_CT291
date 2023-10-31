@@ -7,49 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace QL_BANSACH
 {
     public partial class MenuKH : Form
     {
-        SqlConnection conn = new SqlConnection();
-
-        Function func = new Function();
-
-        public MenuKH()    
+        public string MaKH;
+        public MenuKH(string makh, string username)
         {
             InitializeComponent();
+            MaKH = makh;
+            label2.Text = username;
         }
 
         private void btnEditPf_Click(object sender, EventArgs e)
         {
-            TTKH tTKH = new TTKH();
-            tTKH.Show();
+            QuanLyNV qlnv = new QuanLyNV();
+            qlnv.Show();
         }
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            DatSach ds = new DatSach();
-            //ds.FormClosed += MenuKH_FormClosed;
-            //this.Hide();
+            DatSach ds = new DatSach(MaKH);
             ds.Show();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Close();    
-        }
-
-        private void MenuKH_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
-
-        private void MenuKH_Load(object sender, EventArgs e)
-        {
-            func.ketnoi(conn);
-
         }
     }
 }

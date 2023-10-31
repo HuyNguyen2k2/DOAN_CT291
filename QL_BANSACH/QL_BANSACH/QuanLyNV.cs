@@ -86,24 +86,8 @@ namespace QL_BANSACH
         {
 
             func.ketnoi(conn);
-
-            txtbMaNV.Enabled = false;
-
             func.HienThiDuLieuDG(dataGridView1, "Select * from Nhan_vien", conn);
 
-            FormatDataGridViewColumns();
-
-        }
-        private void FormatDataGridViewColumns()
-        {
-            if (dataGridView1.Columns.Count == 0) return;
-
-            int columnWidth = dataGridView1.Width / dataGridView1.Columns.Count;
-
-            foreach (DataGridViewColumn column in dataGridView1.Columns)
-            {
-                column.Width = columnWidth;
-            }
         }
 
         private void btnAddNV_Click(object sender, EventArgs e)
@@ -197,6 +181,11 @@ namespace QL_BANSACH
             isEditMode = 3;
 
             func.HienThiDuLieuDG(dataGridView1, "SELECT * FROM Nhan_vien;", conn);
+
+        }
+
+        private void txtbMaNV_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

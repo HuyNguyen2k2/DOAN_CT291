@@ -23,7 +23,7 @@ namespace QL_BANSACH
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void DangKy_Load(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace QL_BANSACH
             func.ketnoi(conn);
 
             txtbTen.Text = "Nhập vào họ và tên";
-            txtbDC.Text = "";
+            txtbDC.Text = "Nhập vào địa chỉ";
             txtbUsername.Text = "";
             txtbPassword.Text = "";
             txtbRestypePw.Text = "";
@@ -68,12 +68,7 @@ namespace QL_BANSACH
             string sql_InsertTable_KH = " INSERT INTO KHACH_HANG(MAKH, TENKH, DIACHIKH) VALUES('"+makh+"', N'"+tenkh+"', N'"+diachi+"') ";
             string sql_InsertTable_TK = " INSERT INTO TAI_KHOAN VALUES('"+username+"', '"+makh+"', '"+password+"') ";
 
-            if (txtbTen.Text == "" || txtbTen.Text == "Nhập vào họ và tên")
-            {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            else if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password)) 
+            if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password)) 
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -89,8 +84,6 @@ namespace QL_BANSACH
                 func.CapNhat(sql_InsertTable_TK, conn);
                 MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DangNhap back = new DangNhap();
-                back.FormClosed += DangKy_FormClosed;
-                this.Hide();
                 back.Show();
             }
 
@@ -105,9 +98,9 @@ namespace QL_BANSACH
             }
         }
 
-        private void DangKy_FormClosed(object sender, FormClosedEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            this.Show();
+
         }
     }
 }
